@@ -27,10 +27,6 @@ body {
     padding: 15px 0;
 
 }
-.lines{
-    display: none;
-
-}
 
 .header-logo {
     font-family: Poppins;
@@ -218,6 +214,94 @@ p {
     justify-content: space-between;
 }
 
+.sec3 {
+    background-color: #323946;
+    width: 100%;
+    padding: 2% 0;
+    margin: 2% 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.box img {
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 616px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 20%;
+}
+
+.a1 {
+    width: 301.83px;
+    height: 47.38px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+.a2 {
+    width: 616px;
+    height: 236.38px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+input {
+    background-color: #323946;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #323946;
+    margin-top: 30%;
+}
+
+.aa a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+
+}
+
+.aa button {
+    width: 40px;
+    height: 40px;
+    background-color: #00EEFF;
+    border: none;
+    border-radius: 10px;
+
+}
+.aa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 @media screen and (max-width:780px) {
 
     .sec1-wrapper {
@@ -233,7 +317,8 @@ p {
         flex-wrap: wrap;
         gap: 5px;
     }
-    .a0png{
+
+    .a0png {
         transform: scale(0.5);
     }
 
@@ -252,33 +337,144 @@ p {
         margin: 0 auto;
     }
 
+    .boxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        margin-top: 20px;
+        margin-right: 5%;
+    }
+
+    .box img {
+        border-radius: 15px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 616px;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-left: 7%;
+    }
+
 }
-@media screen and (max-width:430px) {
-    .header-list{
+
+@media screen and (max-width:380px) {
+
+    .sec1-wrapper {
+        display: flex;
+        margin-top: 200px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .header-list {
         display: none;
     }
-    nav{
-        margin: 0 auto;
+
+    .card-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 5px;
     }
-    .lines{
-        display: block;
+
+    .a0png {
+        transform: scale(0.5);
     }
-    h1{
-        font-size: 180%;
-    }
-    .h4-1{
-        font-size: 180%;
-        width: 310px;
-    }
-    p{
-        width: 310px;
-    }
+
     .card3 {
-        width: 360px;
-        padding-top: 10px;
+        width: 317px;
         justify-content: start;
         border-radius: 12px;
         background-color: #323946;
         text-align: center;
     }
+
+    .container {
+        max-width: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .text-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: white;
+        gap: 30px;
+        width: 320px;
+    }
+
+    p {
+        font-family: Poppins;
+        font-size: 12.8px;
+        font-weight: 400;
+        line-height: 19.2px;
+        width: 320px;
+
+    }
+
+    h4 {
+        font-family: Poppins;
+        font-size: 20.8px;
+        font-weight: 700;
+        line-height: 31.2px;
+
+    }
+
+    h1 {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+    }
+
+    .sec3 {
+        background-color: #323946;
+        width: 100%;
+        padding: 6% 0;
+        margin: 30% 0;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .a1 {
+        width: 320.63px;
+        height: 42px;
+        border: none;
+        border-radius: 20px;
+        padding-left: 10px;
+        margin-top: 10px;
+        margin: 0;
+
+    }
+
+    .a2 {
+        width: 320.63px;
+        height: 204px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+
+    }
+
+
 }
